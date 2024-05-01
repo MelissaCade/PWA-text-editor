@@ -10,6 +10,10 @@ This is a progressive web app that runs in the browser. This app can be installe
 
 
 
+https://github.com/MelissaCade/PWA-text-editor/assets/160056156/d5ad3a28-a5f9-450f-8001-716ce9523c67
+
+
+
 ## Screenshots
 
 Landing page of the browser app:
