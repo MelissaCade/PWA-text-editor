@@ -21,7 +21,7 @@ module.exports = () => {
       }),
       new InjectManifest({
         swSrc: "./src-sw.js",
-        swDest: "service-worker.js",
+        swDest: "src-sw.js",
       }),
       new WebpackPwaManifest({
         fingerprints: false,
@@ -31,8 +31,8 @@ module.exports = () => {
         description: "Taking Notes with a progressive web app!",
         background_color: "#225ca3",
         theme_color: "#225ca3",
-        start_url: "./",
-        publicPath: "./",
+        start_url: "/",
+        publicPath: "/",
         icons: [
           {
             src: path.resolve("src/images/logo.png"),
